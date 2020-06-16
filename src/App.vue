@@ -14,7 +14,6 @@ import store from "./store"
 
 export default {
   setup(){
-    
     let data = store.getState();
     const num = ref(0)
     const inc = () =>{
