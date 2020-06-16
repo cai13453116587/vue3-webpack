@@ -1,0 +1,39 @@
+{
+  "name": "domevue3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "@posva/vue-router-next": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.2",
+    "vue": "^3.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@vue/compiler-sfc": "^3.0.0-alpha.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^16.0.0-alpha.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
